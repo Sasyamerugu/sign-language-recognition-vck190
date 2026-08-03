@@ -20,7 +20,7 @@ docs/SignLanguageModel.pdf# sign-language-recognition-vck190
 - Performed INT8 quantization using the AMD Vitis AI Quantizer.
 - Compiled the quantized model for execution on the AMD Versal VCK190 DPU.
 - Achieved high inference accuracy with minimal degradation after quantization.
-- Supports image-based prediction and webcam-based real-time inference.
+
 
 ---
 
