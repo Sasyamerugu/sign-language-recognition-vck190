@@ -101,23 +101,23 @@ https://github.com/ayeshatasnim-h/Indian-Sign-Language-dataset
 
 ```
 sign-language-recognition-vck190
-
-├── models/
-│   └── isl_resnet18.pth
 │
-├── exports/
-│   └── resnet18_isl.xmodel
+├── models/
+│   ├── isl_resnet18.pth
+│   ├── resnet18_isl_vck190.xmodel
+│   └── resnet18_isl_zcu104.xmodel
 │
 ├── train_resnet18.py
 ├── evaluate.py
 ├── predict.py
-├── webcam.py
+├── test_resnet18.py
 ├── calibrate.py
 ├── calibimggen.py
 ├── classes.txt
 │
 ├── README.md
 ├── requirements.txt
+
 
 ```
 
